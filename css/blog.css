@@ -1,0 +1,199 @@
+.row{
+	width: 100%;
+}
+.a1{
+    margin-left: 10%;
+    font-size: 35px;
+}
+.div1{
+      padding-right: 10%;
+      font-size: 21px;
+}
+#zent {
+	margin: 0 auto;
+}
+.content-left{
+	width: 100%;
+	padding-left: 10%;
+}
+.hr {
+	background: black;
+    height: 5px;
+    margin: 0 auto;	
+}
+.container {
+	padding-top: 0!important;
+}
+.ctleft{
+	background-color: #ff2300;
+	padding: 5% 0;
+	color: #fff;
+}
+.bot-ctleft{
+	background-color: #d6d7d7;
+	padding: 5%;
+}
+.hr1{
+	margin: 0 auto;
+}
+.readmore{
+	background-color: #ff2300;
+	width: 20%;
+	padding: 1.5% 0;
+}
+.readmore a{
+	color: #fff;
+}
+.readmore:hover {
+	background-color: #a00808;
+}
+.left-con-2 img {
+	width: 100%;
+}
+.ctleft-con{
+	padding-top: 5%;
+}
+.page {
+	padding: 5%;
+	width: 100%;
+}
+.form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+.container{
+	padding-top: 8.5%;
+}
+.card-body {
+	padding: 0;
+}
+#content{
+	padding-bottom: 5%;
+}
+.content-right{
+	padding-right: 5%;
+}
+.recent{
+	width: 100%;
+	padding-top: 15%;
+	padding-left: 15px;
+}
+.creative{
+	width: 60%;
+	padding: 5% 0;
+}
+.creative a:hover{
+	background-color: grey;
+}
+.cate {
+	width: 80%;
+	padding-top: 5%;
+	padding-left: 15px;
+}
+.cate a{
+	color: black;
+}
+.cate li:hover{
+	background-color: red;
+}
+.list-group {
+	padding-top: 5%;
+}
+.p-font{
+	font-size: 23px;
+    padding: 5% 0% 2%;
+}
+.archive{
+	padding-top: 10%;
+	width: 90%;
+	padding-left: 15px;
+}
+
+.archive .row{
+	padding: 5% 0;
+}
+.archive .row a{
+	color: black;
+}
+.archive .row a:hover .row{
+	color: red;
+}
+.tag {
+	padding-top: 10%;
+	padding-left: 15px;
+	line-height: 30px;
+}
+.tag .badge:hover{
+	background-color: red;
+}
+.gallery{
+	padding-top: 10%;
+	padding-left: 15px;
+}
+.gallery-img {
+	padding-right: 5%;
+	padding-top: 3%;
+}
+.footer-top {
+  background: #333333;
+  color: #fff;
+  line-height: 35px;
+  padding: 4% 0% 3% 5%;
+}
+.item-footer{
+  padding-right: 3%;
+}
+.it2-footer{
+  font-size: 25px;
+  color: black;
+}
+.it2-footer i{
+  padding-right: 1%;
+}
+.footer-bot {
+  background: #111111;
+  color: white;
+}
+.bot-left {
+  padding: 2% 5% 0% 10%;
+  float: left;
+}
+.bot-right {
+  width: 43%;
+  padding: 1.8% 5% 1% 0%;
+}
+.bot-right ul li {
+  list-style: none;
+  padding-right: 5%;
+  padding-left: 0;
+}
+.bot-rith-item {
+  float: left;
+}
+.hr2 {
+	background-color: #fff;
+}
+
+@media (max-width: 768px) {
+	.readmore {
+		width: 40%;
+	}
+	.ctleft {
+		padding: 0.5em 0;
+	}
+	.pagination{
+		overflow-x: scroll;
+	}
+	.bot-rith-item {
+    padding-right: 0.75em!important;
+    padding-bottom: 0.5em;
+  }
+  #content>.row{
+	
+	}
+}

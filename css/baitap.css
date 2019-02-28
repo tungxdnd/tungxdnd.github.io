@@ -1,0 +1,158 @@
+#zent {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+#header {
+	width: 100%;
+
+}
+.clear {
+	clear: both;
+}
+
+.logo {
+	width: 25%;
+    padding-left: 10%;
+    float: left;
+    font-size: 20px;
+}
+.logo div{
+	padding: 5%;
+}
+.menu {
+	width: 50%;
+    padding-left: 10%;
+    float: right;
+
+}
+.menu ul {
+	padding-top: 3%;
+}
+.menu ul li {
+	display: inline-block;
+	list-style: none;
+	padding-right: 5%;
+}
+#header .menu ul li a{
+	text-decoration: none;
+	color: black;
+}
+#header .menu ul .menu-item a{
+	color: orange;
+}
+.content1{
+	background-image: url(../image/1.jpg);
+	background-size: cover;
+}
+.content1-h3{
+	width: 45%;
+	margin: 0 auto;
+	color: #fff;
+	padding-top: 5%;
+}
+
+.hr {
+	width: 30px;
+    margin: 0 auto;
+    display: block;
+    height: 10px;
+    border-top: 3px solid orange;
+    margin-top: 2%;
+    margin-bottom: 1.5%;
+}
+.white-color{
+	color: #fff;
+	width: 45%;
+    margin: 0 auto;
+}
+.content1-btn {
+	width: 10%;
+    margin: 5% 45%;
+    border-radius: 50px;
+    background-color: orange;
+}
+.content2{
+	background: orange;
+	padding-top: 5%;
+}
+.btn1 {
+	border-radius: 10px;
+    background: #fff;
+    font-size: 18px;
+    margin: 2% 0 5% 45%;
+    width: 10%;
+	border: 1px;
+}
+.hr1 {
+
+    border-top: 3px solid #fff;
+
+}
+.content3-top {
+	width: 100%;
+	margin-bottom: 100px;
+}
+.content3-top .item{
+	width: 24%;
+	display: inline-block;
+	padding-left: 6%;
+    padding-right: 3%;
+}
+.content3-top .item i {
+	color: white;
+    background: orange;
+    padding: 10%;
+    border-radius: 50%;
+    margin: 30%;
+    font-size: 30px;
+}
+.content3-h3 {
+	padding-top: 5%;
+}
+.content4{
+	padding-right: 0;
+}
+.content4-img{
+	padding: 0;
+}
+.btn5{
+	width: 13%;
+    margin: 5% 43%;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px;
+}
+.content5{
+	background-color: orange;
+}
+.content5-h3{
+	width: 45%;
+	margin: 0 auto;
+	color: #fff;
+	padding-top: 5%;
+}
+#footer{
+	padding-top: 5%;
+}
+.footer-p{
+	width: 45%;
+    margin: 0 auto;
+}
+.footer-bot{
+	width: 50%;
+	padding-left: 6%;
+    padding-right: 3%;
+    margin-left: 25%;
+}
+.footer-bot .item1 i {
+	color: white;
+    background: orange;
+    padding: 10%;
+    border-radius: 50%;
+    margin: 30%;
+    font-size: 30px;
+}
+.footer-bot-p {
+	color: red;
+}

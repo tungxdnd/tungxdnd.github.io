@@ -1,0 +1,134 @@
+.row{
+	width: 100%;
+}
+.a1{
+    margin-left: 10%;
+    font-size: 35px;
+}
+.div1{
+      padding-right: 10%;
+      font-size: 21px;
+}
+.hr {
+	width: 100%;
+	margin: 0 auto;
+	background-color: grey;
+}
+.h2-1{
+	padding-top: 2em;
+}
+.category_container{
+	width: 70%;
+	margin: 0 auto;
+	display: block;
+	overflow: hidden;
+}
+.category_item{
+	float: left;
+	width: 20%;
+	background-color: #fff;
+	cursor: pointer;
+	color: black;
+	padding: 20px 0;
+	font: 15px;
+}
+.category_item:hover{
+	background-color: pink;
+	color: #fff;
+}
+.block_container{
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+.img-item{
+	box-sizing: border-box;
+	float: left;
+	padding: 2px;
+	width: 20%;
+	transition: all 0.5s ease-in-out;
+}
+.hide{
+	transform: scale(0);
+	width: 0;
+	padding: 0;
+	transition: all 0.5s ease-in-out;
+}
+.footer-top {
+  background: #333333;
+  color: #fff;
+  line-height: 35px;
+  padding: 4% 0% 3% 5%;
+}
+.item-footer{
+  padding-right: 3%;
+}
+.it2-footer{
+  font-size: 25px;
+  color: black;
+}
+.it2-footer i{
+  padding-right: 1%;
+}
+.footer-bot {
+  background: #111111;
+  color: white;
+}
+.bot-left {
+  padding: 2% 5% 0% 10%;
+  float: left;
+}
+.bot-right {
+  width: 43%;
+  padding: 1.8% 5% 1% 0%;
+}
+.bot-right ul li {
+  list-style: none;
+  padding-right: 5%;
+  padding-left: 0;
+}
+.bot-rith-item {
+  float: left;
+}
+.filter{
+	width: 100%;
+	margin-bottom: 2em;
+}
+
+
+.simplefilter, .multifilter, .sortandshuffle, .search-row {
+  padding-left: 0;
+}
+.simplefilter li, .multifilter li, .sortandshuffle li {
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 0.5rem 2rem;
+}
+.simplefilter li {
+    background-color: #585858;
+}
+.simplefilter li.active {
+    background-color: #212121;
+}
+.filtr-container img {
+	width: 99%;
+}
+.padding-lr0{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+@media (max-width: 768px) {
+	.fltr-controls{
+		display: block!important;
+		padding: 0.5rem 1rem;
+	}
+	.bot-rith-item {
+    padding-right: 0.75em!important;
+    padding-bottom: 0.5em;
+	}
+	
+}

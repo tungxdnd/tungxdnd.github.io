@@ -1,0 +1,116 @@
+.row{
+  width: 100%;
+}
+.a1{
+    margin-left: 10%;
+    font-size: 35px;
+}
+.div1{
+      padding-right: 10%;
+      font-size: 21px;
+}
+.hr {
+	width: 100%;
+	margin: 0 auto;
+	background-color: grey;
+}
+.h2-1{
+	padding-top: 2em;
+}
+.pdl-5{
+	padding-left: 5em;
+	padding-top: 5em;
+}
+.pdl-5 i{
+  color: red;
+}
+#footer{
+	width: 100%;
+}
+.footer-top {
+  background: #333333;
+  color: #fff;
+  line-height: 35px;
+  padding: 4% 0% 3% 5%;
+}
+.item-footer{
+  padding-right: 3%;
+}
+.it2-footer{
+  font-size: 25px;
+  color: black;
+}
+.it2-footer i{
+  padding-right: 1%;
+}
+.footer-bot {
+  background: #111111;
+  color: white;
+}
+.bot-left {
+  padding: 2% 5% 0% 10%;
+  float: left;
+}
+.bot-right {
+  width: 43%;
+  padding: 1.8% 5% 1% 0%;
+}
+.bot-right ul li {
+  list-style: none;
+  padding-right: 5%;
+  padding-left: 0;
+}
+.bot-rith-item {
+  float: left;
+}
+.message {
+	padding-top: 3em;
+    width: 88%;
+    margin: 0 auto;
+}
+.map{
+	width: 100%!important;
+	height: 22em;
+}
+.note>input{
+	width: 100%;
+    padding: 3em;
+    margin: 2em 0;
+}
+.submit{
+	background-color: #ff2300;
+    width: 10em;
+    padding: 0.5em 0;
+    margin-bottom: 5em;
+    margin-left: -1em;
+}
+.submit:hover{
+  background-color: #a00808;
+}
+.submit a{
+	color: #fff;
+}
+
+@media (max-width: 768px) {
+	.pdl-5 {
+		padding: 2em;
+		width: 95%;
+	}
+	.submit{
+		width: 8.5em;
+	}
+  .bot-rith-item {
+    padding-right: 0.75em!important;
+    padding-bottom: 0.5em;
+  }
+  .message .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .submit {
+    margin-left: 1.05em;
+  }
+  .pdl-5{
+    padding: 2em 0em 2em 2em;
+  }
+}

@@ -1,0 +1,284 @@
+
+.a1{
+    margin-left: 10%;
+    font-size: 35px;
+}
+.div1{
+      padding-right: 10% !important;
+      font-size: 21px !important;
+      height: auto !important;
+}
+.clear {
+  clear: both;
+}
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.slideimg {
+  -webkit-animation-name: slideimg;
+  -webkit-animation-duration: 1.5s;
+  animation-name: slideimg;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes slideimg {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes slideimg {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+} 
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.prev {
+  background: #d2d2d2;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  background: #d2d2d2;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+.ctn3 {
+  padding-left: 10%;
+}
+#content{
+  margin-top: 5%;
+}
+.content-top {
+  width: 100%;
+  margin-bottom: 100px;
+}
+.content-top .item{
+  display: inline-block;
+  padding-left: 6%;
+  padding-right: 3%;
+}
+.content-top .item i {
+  color: white;
+  background: orange;
+  padding: 10%;
+  border-radius: 50%;
+  margin: 33%;
+  font-size: 30px;
+}
+.content-top .item p{
+  text-align: center;
+
+}
+.content2 {
+  padding-top: 5%;
+}
+.content2 img{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.content3-con {
+  padding-left: 3.5%;
+  padding-top: 5%;
+
+}
+.content3-con .content3-left {
+   background: orange;
+   height: 5em;
+   line-height: 6em;
+   text-align: center;
+   border-radius: 50%;
+   width: 5em;
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: 0;
+  margin-right: 0;
+}
+.content3-con .content3-left i{
+    color: white;
+    font-size: 40px;
+}
+.content4 {
+  background: orange;
+  margin-top: 5%;
+  padding-top: 5%;
+}
+.btn{
+  width: 30%;
+  padding: 3%;
+}
+.content4 button {
+  text-align: center;
+  
+    border-radius: 10px;
+    border: 1px solid #fff;
+    background: #fff;
+    font-size: 18px;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+.content4-con {
+  margin: 0 auto;
+}
+.bt1 {
+  margin: 0 auto;
+}
+.item-ct5 {
+  width: 20%;
+  float: left;
+
+}
+.content5 {
+  margin-top: 7%;
+  background: #E8E8E8;
+  margin-top: 0%;
+  padding: 5%;
+}
+.content5-con {
+  padding: 5%;
+
+}
+.content5 img{
+  border-radius: 25px;
+}
+.item-ct5 {
+  padding: 5% 0 5% 0%;
+}
+.item-ct5 img {
+  border-radius: 25%;
+  margin-left: 10%;
+}
+.footer-top {
+  background: #333333;
+  color: #fff;
+  line-height: 35px;
+  padding: 4% 0% 3% 5%;
+}
+.hr {
+  background-color: white;
+
+}
+.item-footer{
+  padding-right: 3%;
+}
+.it2-footer{
+  font-size: 25px;
+  color: black;
+}
+.it2-footer i{
+  padding-right: 1%;
+}
+.footer-bot {
+  background: #111111;
+  color: white;
+}
+.bot-left {
+  padding: 2% 5% 0% 10%;
+  float: left;
+}
+.bot-right {
+  width: 43%;
+  padding: 1.8% 5% 1% 0%;
+}
+.bot-right ul li {
+  list-style: none;
+  padding-right: 5%;
+  padding-left: 0;
+}
+.bot-rith-item {
+  float: left;
+}
+
+.span6 {
+  width: 90% !important;
+}
+.span6 .progress {
+  height: 3.25em;
+}
+.pdtop-15px {
+  padding-top: 15px;
+}
+@media (max-width: 768px) {
+  .btn{
+    width: 60%;
+  }
+  .ourskills-right{
+    padding-top: 2em;
+  }
+  .ourskills-right img {
+    width: 60px;
+    position: absolute;
+    right: -10px;
+    top: 10px;
+  }
+  .edit-fontsize {
+    font-size: 10px;
+  }
+  .ct2-con {
+    width: 100% !important;
+    padding: 5% 0 !important;
+  }
+  .bot-rith-item {
+    padding-right: 0.75em!important;
+    padding-bottom: 0.5em;
+  }
+  .span6 .progress {
+  height: 1.75em;
+  }
+}
+
+
+.ct2-con {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.img1{
+  width: 35%;
+  border-radius: 50%;
+}
+.ourskills {
+  width: 86%;
+  margin: 0 auto;
+  padding: 5% 0;
+}
+.barWrapper {
+  width: 90%;
+}
+.ourskills-con{
+  padding-top: 5%;
+}
