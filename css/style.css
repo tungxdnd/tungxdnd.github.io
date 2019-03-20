@@ -19,6 +19,7 @@ ul{list-style-type:none}
 .main-menu a{text-transform:uppercase;font-size:14px;padding:11px;position:relative}
 .main-menu a:after{height:3px;bottom:0;left:0;background-color:#26cc63;position:absolute}
 .about,.avatar-box,.info-box,.info-box__name{position:relative}
+.avatar-box img { max-width: 94%; }
 .main-menu a:hover:after{width:100%}
 .about{background-color:#fff;overflow:hidden}
 .about-social,.info-box__name .hello{background-color:#26cc63}
