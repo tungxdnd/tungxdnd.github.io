@@ -1,0 +1,181 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+body {
+	font-family: arial;
+	font-size: 13px;
+	color: #333;
+}
+#content {
+	background: #e7ecf4;
+}
+#header {
+	background: #222;
+}
+#logo {
+	padding: 8px 5px 8px 15px;
+}
+.form-search input {
+	width: 50% !important;
+	border-radius: 3px 0 0 3px;
+}
+.form-search button {
+	border-radius: 0 3px 3px 0;
+	background: #eb1f27;
+}
+#cart a, #cart span /* css 2 thuộc tính con của #cart*/ {
+	color: #fff;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+#cart span {
+	background: red;
+  	width: 30px;
+  	height: 30px;
+    border-radius: 100%;
+    display: inline-block;
+    line-height: 30px;
+}
+
+/*Menu*/
+
+#menu {
+	background-color: #eb1f27;
+	overflow: hidden;
+}
+#menu ul {
+	margin-bottom: 0;
+}
+.menu-item {
+	float: left;
+	list-style: none;
+	border-right: 1px solid #c60a11;
+	line-height: 40px;
+	padding: 0 20px;
+}
+.menu-item a {
+	text-decoration: none;
+	color: #fff;
+}
+.menu-item:hover {
+	background: #af1025;
+} 
+/* Đoạn này không cần */
+.carousel-control-prev span {
+	height: 50px;
+}
+.carousel-control-prev span:hover {
+	background-color: #dcdcdc;
+	color: #fff;
+	/* opacity: 0.5;	 */
+}
+.carousel-control-next span {
+	height: 50px;
+}
+.carousel-control-next span:hover {
+	background-color: #dcdcdc;
+	color: #fff;
+
+}
+/* Products */
+
+.products h4 {
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.products-list {
+	margin: 0 -5px;
+}
+.products .product-item {
+	margin: 5px ;
+}
+.product-item a {
+	font-size: 13px;
+	color: #333;
+	text-decoration: none;
+	font-weight: 600;
+}
+.product-item img {
+	width: 150px;
+	height: 220px;
+}
+.product-item p {
+	text-transform: capitalize;
+}
+.product-item span {
+	color: #eb1f27;
+	font-weight: bolder;
+}
+/*Footer*/
+.footer-top {
+	color: #000 ;
+	line-height: 1.7;
+}
+.history-vietpro {
+	
+    margin-top: 12px;
+}
+.h4 {
+	font-size: 18px;
+}
+.footer-bot {
+	background: #1d1e24;
+	color: #a1b1bc;
+	line-height: 40px;
+	margin-bottom: 0;
+}
+
+/*Media Queries: giúp trang trí css trên từng vùng kích cỡ được thiết lập*/
+@media screen and (max-width: 767px) {
+	#cart {
+		text-align: left !important;
+		
+	}
+	#header {
+		position: relative;
+	}
+	#header > button {
+		position: absolute;
+		top: 10px;
+    	right: 15px;
+	}
+	#menu {
+		display: none;
+	}
+	.menu-item {
+		float: none;
+		border-bottom: 1px solid #c60a11;
+	}
+	.menu-item:last-child {
+		border-bottom: none;
+	}
+}
+@media screen and (min-width: 768px){
+	#header > button {
+		display: none;
+	}
+	#menu {
+		display: block;
+	}
+}
+
+
+
+
+
+@media screen and (min-width: 576px) and (max-width: 690px) {
+	#header > button{
+		top: 55px;
+	    right: 40px;
+	    z-index: 99;
+	}
+}
+@media screen and (min-width: 691px) and (max-width: 767px) {
+	#header > button {
+	    top: 5px;
+	    right: 25px;
+	    z-index: 99;
+	}
+}
