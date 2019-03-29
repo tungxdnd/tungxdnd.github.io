@@ -90,6 +90,7 @@ body {
 }
 .products .product-item {
 	margin: 5px ;
+	list-style-type: square;
 }
 .product-item a {
 	font-size: 13px;
@@ -100,6 +101,15 @@ body {
 .product-item img {
 	width: 150px;
 	height: 220px;
+	transition: opacity 1s, transform .7s;
+}
+.product-item img:hover {
+	opacity: 0.5;
+	-webkit-transform: translate(0, -10px);
+	   -moz-transform: translate(0, -10px);
+	    -ms-transform: translate(0, -10px);
+	     -o-transform: translate(0, -10px);
+	        transform: translate(0, -10px);
 }
 .product-item p {
 	text-transform: capitalize;
@@ -114,7 +124,6 @@ body {
 	line-height: 1.7;
 }
 .history-vietpro {
-	
     margin-top: 12px;
 }
 .h4 {
@@ -126,7 +135,40 @@ body {
 	line-height: 40px;
 	margin-bottom: 0;
 }
+.scrollup{
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+        opacity: .3;
+        position: fixed;
+        bottom: 20px;
+        right: 25px;
+        color: #fff;
+        cursor: pointer;
+        background-color: #000;
+        z-index: 1000;
+        transition: opacity .5s, background-color .5s;
+        -moz-transition: opacity .5s, background-color .5s;
+        -webkit-transition: opacity .5s, background-color .5s;
+    }
 
+    .scrollup:hover {
+        background: #ff7200;
+        opacity: 1;
+    }
+
+    .scrollup i {
+        font-size: 13px;
+        position: absolute;
+        opacity: 1;
+        color: #fff;
+        left: 50%;
+        top: 50%;
+        margin-top: -7px;
+        margin-left: -6px;
+        text-decoration: none;
+
+    }
 /*Media Queries: giúp trang trí css trên từng vùng kích cỡ được thiết lập*/
 @media screen and (max-width: 767px) {
 	#cart {

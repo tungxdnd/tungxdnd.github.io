@@ -252,17 +252,24 @@
 		<div class="footer-bot text-center text-justify">
 			2019 © Coppyright Vietpro Academy. Allrights reserved. Developed by DinhKham
 		</div>
+		<div class="scrollup">
+        <a href="#" id="myBtn"><i class="fa fa-chevron-up"></i></a>
+    	</div>
 	</div>
 	<!-- End footer -->
 	<script>
-		function myFunction() {
-			var x = document.getElementById("menu");
-			if (x.style.display === "block") {
-				x.style.display = "none";
-			} else {
-				x.style.display = "block";
-			}
-		}
+		 $(window).scroll(function () {
+        if ($(this).scrollTop() > 600) {
+            $('.scrollup').fadeIn('slow');
+        } else {
+            $('.scrollup').fadeOut('slow');
+        }
+    });
+
+    $('.scrollup').click(function () {
+        $("html, body").animate({scrollTop: 0}, 1000);
+        return false;
+    });
 	</script>
 </body>
 </html>
