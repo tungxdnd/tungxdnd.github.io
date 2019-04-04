@@ -1,0 +1,476 @@
+body {
+	font-size: 13px;
+	color: #333;
+	font-family: sans-serif;
+}
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+.padding0 {
+	padding: 0 !important;
+}
+/* Bắt đầu header */
+#header {
+	position: fixed;
+	top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    background-color:hsla(170,100%,75%,0.5);
+}
+#logo a img {
+	max-width: 60%;
+}
+.search {
+	float: right;
+}
+.form-search {
+	width: 450px;
+}
+
+.form-search .form-control {
+	width: 78%;
+    border-radius: inherit;
+    height: auto;
+    padding: .175rem .75rem;
+}
+.form-search button{
+	border-radius: inherit;
+    background: #25e0cd;
+    padding: .175rem .75rem;
+}
+.form-search span a {
+	color: yellow;
+    padding-left: 20px;
+}
+.form-search span a i {
+	font-size: 30px;
+}
+nav {
+	display: inline-block;
+}
+#menu .active > a {
+	color: #fab801;
+}
+.nav-item {
+	padding: 0 14.3px;
+}
+.nav-item .nav-link:hover {
+	color: #fab801;
+}
+.nav-item:last-child {
+	padding-right: 0;
+}
+.nav-link {
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 2.5px 2px #0e5e56;
+}
+.nav-item .nav-link-last {
+    padding-right: 0 !important;
+}
+#menu .nav-item .active {
+	color: #fab801;
+}
+
+/* End header */
+/* Bắt đầu Main */
+    /* Aside - Slide */
+#carouselExampleIndicators {
+	position: relative;
+}
+#carouselExampleIndicators ol {
+	bottom: 50px;
+}
+#carouselExampleIndicators ol li{
+	width: 15px;
+    height: 15px;
+    border-radius: 100%;
+}
+.carousel-indicators .active {
+	background-color: #fab801;
+}
+.carousel-item img {
+	height: 550px;
+}
+/*Bắt đầu Section #Intro */
+.list-products-new {
+	display: inline-block;
+}
+.product-item {
+	float: left;
+    width: 42% !important;
+	transition: background 0.5s;
+	margin-bottom: 15px !important;
+}
+.product-item:hover{
+	background: #c7f7f2;
+}
+
+.img-product {
+	max-width: 50%;
+	height: 115px;
+}
+.fix-img {
+	max-width: 100%;
+}
+.fix-img-2 {
+	max-width: 42%;
+}
+.star i {
+	color: #f9b801;
+}
+.price {
+	color: #43b094;
+	font-size: 18px;	
+}
+.banner {
+	position: relative;
+}
+.banner img {
+	padding-top: 35px;
+    max-width: 100%;
+}
+.h5-fix {
+	font-size: 13px;
+	height: 30px;
+}
+.h5-fix a {
+	color: #333;
+	text-decoration: none;
+}
+.h5-fix a:hover {
+	color: #fab801;
+}
+.form-regist {
+	position: absolute;
+	margin: 0 auto;
+    bottom: 70px;
+	right: 15px;
+	z-index: 9;
+}
+.form-regist .form-control {
+	margin-bottom: 20px !important;
+    width: 80% !important;
+    font-size: 15px;
+    text-align: center;
+    margin: 0 auto;
+    height: auto;
+    padding: .175rem .75rem;
+}
+.form-regist button{
+	margin: 0 auto;
+    padding: 5px 30px;
+}
+/* Bắt đầu Section Service */
+#services {
+	background-color: #d8d7d7;
+}
+.danh-luc {
+	padding: 0 10%;
+}
+.border-color{
+	margin: 0 auto;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    border: 3px solid #41ddcc;
+    border-radius: 100%;
+    transition: .5s;
+}
+.border-color:hover {
+	border: 3px solid #2f9edf;
+}
+.tab-danh-muc .border-color a img {
+	height: 110px;
+	margin: 17px;
+}
+/* Bắt đàu article #Products */
+.pro {
+	transition: background 0.5s;
+	position: relative;
+}
+.pro a .img-pro {
+	height: 210px;
+    max-width: 45%;
+}
+.pro:hover {
+	background: #c7f7f2;
+}
+.actions {
+	position: absolute;
+	right: 12px;
+    top: 35px;
+    width: 30px;
+	visibility: hidden;
+	opacity: 1;
+}
+.visible {
+	visibility: visible;
+}
+.visible-h {
+	visibility: hidden;
+}
+.actions a{
+	display: block;
+	background: #fab801;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 5px;
+	transition: all .2s ease;
+	opacity: 1;
+}
+
+.actions a span {
+	opacity: 1;
+	position: absolute;
+	width: 100px;
+	background: #191919;
+	color: #fff;
+	right: 34px;
+	font-size: 12px;
+	border-radius: 3px;
+	height: 22px;
+	line-height: 22px;
+	margin-top: 3px;
+	visibility: hidden;
+	transition: all .2s ease;
+}
+.actions a:hover {
+	background: #ea3a3c;
+}
+.actions a:hover span{
+	visibility: visible;
+	opacity: 1;
+}
+/* Bắt đầu  section #huongdan */
+#huongdan .bg-huongdan {
+	background-image: url(../images/chamsoclamdep.jpg);
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+    height: 550px;
+}
+#huongdan .bg-huongdan .div1-hd {
+	margin-left: -110px;
+    padding-top: 75px;
+    text-align: center;
+}
+.mw-13 {
+	max-width: 13%;
+	margin-left: 140px;
+}
+.p-2p{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 14px;
+    margin-top: 15px;
+}
+#huongdan .bg-huongdan .div2-hd {
+	padding-top: 65px;
+	margin-left: 110px;
+}
+.mw-12 {
+	max-width: 12%;
+	margin-left: 140px;
+}
+.p-layer2 {
+	margin-left: 275px;
+}
+#huongdan .bg-huongdan .div3-hd {
+    margin-left: -190px;
+}
+.mw-8 {
+	max-width: 8%;
+	margin-left: 140px;
+}
+.mw-layer4 {
+	max-width: 11%;
+    margin-right: 15px;
+}
+#huongdan .bg-huongdan .div4-hd {
+    margin-left: 110px;
+}
+.p-layer4 {
+	margin-left: 290px;
+}
+/* Bắt đầu Section #news */
+#news-card .card {
+	border: none;
+}
+.p-pos {
+	background: #3debd9;
+	position: absolute;
+	width: 100%;
+    left: 0px;
+    top: 119px;
+    opacity: 0.78;
+    color: #ffffff;
+    line-height: 25px;
+    height: 25px;
+    padding: 0 10px;
+}
+.p-pos span {
+	float: right;
+}
+.img-news {
+	position: relative;
+}
+.img-news-fix {
+	height: 143px !important;
+    width: 100% !important;
+}
+.card-h4 {
+	font-size: 16px;
+	padding: 5px 5px 0 5px;
+	height: 35px;
+}
+.card-h4 a{
+	color: #02867b;
+	text-decoration: none;
+}
+.card-h4 a:hover{
+	color: #0dc5b5;
+}
+/* Support */
+#support {
+	background: #d8d7d7;
+	border-bottom: 5px solid #21deca;
+}
+.sup-con {
+	border-right: 2px solid #a3a0a0;
+	transform: skewX(25deg);
+}
+.img-sup-con {
+	height: 50px;
+	width: auto;
+}
+.sup-con a img, .sup-con h4, .sup-con p {
+	transform: skewX(-25deg);
+}
+#support .sup-con:last-child{
+	border-right:none; 
+}
+.sup-con h4 {
+	font-size: 16px;
+}
+.sup-con p {
+	padding-right: 30px;
+}
+/* Footer */
+#footer {
+	background: #1e2322;
+	padding-bottom: 20px;
+}
+#logo-bot{
+	line-height: 130px;
+}
+#logo-bot a img {
+	-o-box-shadow:      12px 12px 29px #555;
+-icab-box-shadow:   12px 12px 29px #555;
+-khtml-box-shadow:  12px 12px 29px #555;
+-moz-box-shadow:    12px 12px 29px #555;
+-webkit-box-shadow: 12px 12px 29px #555;
+box-shadow:         12px 12px 29px #555;
+}
+.logo-right {
+	width: 100%;
+	height: 100px;
+	background-image: url(../images/logo-right.png);
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#footer-bot {
+	color: #fff;
+}
+.f-address p i{
+	font-size: 18px;
+    width: 20px;
+    margin-right: 5px;
+}
+.f-sup p {
+	margin-bottom: 0.75em;
+}
+.f-sup p a{
+	color: #fff;
+}
+.f-contact p a {
+	margin-left: 20px;
+}
+.f-contact p a:first-child {
+	margin-left: unset;
+}
+.f-contact p a i {
+	color: #fff;
+    font-size: 40px;
+}
+/*  Scroll */
+.scrollup{
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	opacity: .3;
+	position: fixed;
+	bottom: 40px;
+	right: 25px;
+	color: #fff;
+	cursor: pointer;
+	background-color: #000;
+	z-index: 1000;
+	transition: opacity .5s, background-color .5s;
+	-moz-transition: opacity .5s, background-color .5s;
+	-webkit-transition: opacity .5s, background-color .5s;
+}
+
+.scrollup:hover {
+	background: #ff7200;
+	opacity: 1;
+}
+
+.scrollup i {
+	font-size: 13px;
+	position: absolute;
+	opacity: 1;
+	color: #fff;
+	left: 50%;
+	top: 50%;
+	margin-top: -7px;
+	margin-left: -6px;
+	text-decoration: none;
+
+}
+
+.page-brand-badge {
+    position: fixed !important;
+    bottom: 10px !important;
+    right: 10px !important;
+    border-radius: 3px;
+    background-color: white;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.1);
+    padding: 2px 7px;
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration: none !important;
+    color: #555 !important;
+    transition: box-shadow 0.25s;
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+.page-brand-badge i{
+    color: #29487d;
+}
