@@ -41,7 +41,7 @@ function sparkle() {
         if (starv[c]) update_star(c);
         if (tinyv[c]) update_tiny(c);
     }
-    setTimeout(sparkle, 40);
+    setTimeout(sparkle, 25);
 }
 
 function update_star(i) {
