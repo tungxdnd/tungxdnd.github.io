@@ -37,7 +37,7 @@
     cursor.x = e.clientX;
     cursor.y = e.clientY;
     
-    addParticle( cursor.x, cursor.y, possibleColors[Math.floor(Math.random()*possibleColors.length)]);
+    addParticle( cursor.x = e.clientX,   cursor.y = e.clientY, possibleColors[Math.floor(Math.random()*possibleColors.length)]);
   }
   
   function addParticle(x, y, color) {
