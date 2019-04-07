@@ -4,7 +4,7 @@ window.onload=function(){
 ;(function(){
     'use strict';
     var $, wrapper, word;
-    var txt = 'V ợ t ươn g l ai  ơi ,    đ ế n  v ới  a n h   đi  !    Đ ế n  c h ậ m  l à e m h ối   h ậ n đ ấ y !';
+    var txt = '---V ợ t ươg l ai  ơi,  đ ế n  v ới   a  đi  ! Đ ế n  c h ậ m l à e m h ối   h ậ n đ ấ y !';
     var msdn = false; //mouse down?
     var rot = true; //rotating?
     var dM = 30 / 1000; // degree / milisec
