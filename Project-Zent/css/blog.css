@@ -36,6 +36,9 @@
 .hr1{
 	margin: 0 auto;
 }
+.col-auto {
+	margin-left: 20px;
+}
 .readmore{
 	background-color: #ff2300;
 	width: 20%;
