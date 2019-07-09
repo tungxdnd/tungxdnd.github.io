@@ -48,10 +48,9 @@ ul{list-style-type:none}
 .product-box{padding-bottom:50px}
 .product-inner{display:flex;flex-wrap:wrap;margin-left:-15px;margin-right:-15px}
 .product-col{width:33.33%;padding-left:15px;padding-right:15px;margin-bottom:30px}
-.product{padding-bottom:20px}
+.product{padding-bottom:20px;height: 100%;}
 .product__thumb{height:200px;overflow:hidden}
-.product__thumb img{transition:5s}
-.product__thumb .img-fptshop {transition:2.5s}
+.product__thumb img{transition:7s}
 .product__text{padding-left:15px;border-top:2px solid #efefef}
 .product__name a{font-size:20px;padding-top:5px;padding-bottom:5px;display:block;font-weight:600;transition:.2s}
 .product__name a:hover{color:#26cc63}
